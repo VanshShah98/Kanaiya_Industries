@@ -3,12 +3,12 @@ import { Box, useMediaQuery, useTheme } from '@mui/material';
 import { PieChart } from '@mui/x-charts/PieChart';
 
 const data = [
-  { id: 0, value: 10, label: 'series A' },
-  { id: 1, value: 15, label: 'series B' },
-  { id: 2, value: 20, label: 'series C' },
-  { id: 3, value: 20, label: 'series D' },
-  { id: 4, value: 20, label: 'series E' },
-  { id: 5, value: 20, label: 'series F' },
+  { id: 0, value: 10, label: 'series A' },//enter the data
+  { id: 1, value: 15, label: 'series B' },//enter the data
+  { id: 2, value: 20, label: 'series C' },//enter the data
+  { id: 3, value: 20, label: 'series D' },//enter the data
+  { id: 4, value: 20, label: 'series E' },//enter the data
+  { id: 5, value: 20, label: 'series F' },//enter the data
 ];
 
 export default function Pie() {

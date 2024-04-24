@@ -9,14 +9,14 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       const transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-          user: 'vanshshah0908@gmail.com',
-          pass: 'jjyq pqnl bczm nzgp', // Replace with your Gmail password
+          user: 'YourGmailID',
+          pass: 'ITS PASSWORD', // Replace with your Gmail password
         },
       });
 
       const mailOptions = {
-        from: 'vanshshah0908@gmail.com',
-        to: 'shahvansh0908@gmail.com',
+        from: 'YOURGMAILID',
+        to: 'RECIVERSID',
         subject: 'Client Contact Details',
         html: `
           <h2>New Client Requirment</h2>
