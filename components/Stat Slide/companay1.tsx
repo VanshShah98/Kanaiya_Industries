@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Pie from '../charts/PieChart';
 
 export default function Statistics1() {
