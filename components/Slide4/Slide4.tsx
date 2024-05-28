@@ -7,7 +7,7 @@ export default function Slide4() {
       <section id="About Us">
         <div className='bg-[#0F0F0F] flex flex-col h-auto'>
           <div className='flex flex-col text-white text-3xl lg:text-5xl font-serif pl-8 lg:pl-10 pt-14'>
-            <p>Founder's Note</p>
+            <p>Founder&#39; s Note</p>
           </div>
           <div className='lg:pl-20 pt-6'>
             <Typography className='text-white text-center lg:text-left text-xl italic'>
