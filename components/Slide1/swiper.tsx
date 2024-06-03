@@ -23,17 +23,36 @@ const Slider: NextPage = () => {
         // scrollbar={{ draggable: true }}
       >
         <SwiperSlide className='flex items-center justify-center'>
-          <Image className='w-full max-w-[800px] h-72 lg:h-auto' src={'Panel_1.svg'} alt={'Image'} width={96} height={96} />
+          <Image className='w-full max-w-[800px] h-72 lg:h-auto' src={'0.svg'} alt={'Image'} width={96} height={96} />
         </SwiperSlide>
         <SwiperSlide className='flex items-center justify-center'>
-          <Image className='w-full max-w-[800px] h-72 lg:h-auto' src={'Panel_2.svg'} alt={'Image'} width={96} height={96} />
+          <Image className='w-full max-w-[800px] h-72 lg:h-auto' src={'1.svg'} alt={'Image'} width={96} height={96} />
         </SwiperSlide>
         <SwiperSlide className='flex items-center justify-center'>
-          <Image className='w-full max-w-[800px] h-72 lg:h-auto' src={'Panel_3.svg'} alt={'Image'} width={96} height={96} />
+          <Image className='w-full max-w-[800px] h-72 lg:h-auto' src={'2.svg'} alt={'Image'} width={96} height={96} />
         </SwiperSlide>
         <SwiperSlide className='flex items-center justify-center'>
-          <Image className='w-full max-w-[800px] h-72 lg:h-auto' src={'Panel_4.svg'} alt={'Image'} width={96} height={96} />
+          <Image className='w-full max-w-[800px] h-72 lg:h-auto' src={'3.svg'} alt={'Image'} width={96} height={96} />
         </SwiperSlide>
+        <SwiperSlide className='flex items-center justify-center'>
+          <Image className='w-full max-w-[800px] h-72 lg:h-auto' src={'4.svg'} alt={'Image'} width={96} height={96} />
+        </SwiperSlide>
+        <SwiperSlide className='flex items-center justify-center'>
+          <Image className='w-full max-w-[800px] h-72 lg:h-auto' src={'5.svg'} alt={'Image'} width={96} height={96} />
+        </SwiperSlide>
+        <SwiperSlide className='flex items-center justify-center'>
+          <Image className='w-full max-w-[800px] h-72 lg:h-auto' src={'6.svg'} alt={'Image'} width={96} height={96} />
+        </SwiperSlide>
+        <SwiperSlide className='flex items-center justify-center'>
+          <Image className='w-full max-w-[800px] h-72 lg:h-auto' src={'7.svg'} alt={'Image'} width={96} height={96} />
+        </SwiperSlide>
+        <SwiperSlide className='flex items-center justify-center'>
+          <Image className='w-full max-w-[800px] h-72 lg:h-auto' src={'8.svg'} alt={'Image'} width={96} height={96} />
+        </SwiperSlide>
+        <SwiperSlide className='flex items-center justify-center'>
+          <Image className='w-full max-w-[800px] h-72 lg:h-auto' src={'9.svg'} alt={'Image'} width={96} height={96} />
+        </SwiperSlide>
+
       </Swiper>
     </div>
   );

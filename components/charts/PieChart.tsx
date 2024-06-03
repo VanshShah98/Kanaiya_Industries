@@ -3,12 +3,14 @@ import { Box, useMediaQuery, useTheme } from '@mui/material';
 import { PieChart } from '@mui/x-charts/PieChart';
 
 const data = [
-  { id: 0, value: 10, label: 'series A' },//enter the data
-  { id: 1, value: 15, label: 'series B' },//enter the data
-  { id: 2, value: 20, label: 'series C' },//enter the data
-  { id: 3, value: 20, label: 'series D' },//enter the data
-  { id: 4, value: 20, label: 'series E' },//enter the data
-  { id: 5, value: 20, label: 'series F' },//enter the data
+  { id: 0, value: 50, label: 'iMCC Panel (20%)' },
+  { id: 1, value: 128, label: 'MCC Panel (15%)' },
+  { id: 2, value: 94, label: 'PCC Panel (11%)' },
+  { id: 3, value: 86, label: 'MPDB Panel (10%)' },
+  { id: 4, value: 87, label: 'PDB Panel (10%)' },
+  { id: 5, value: 103, label: 'MLDB Panel (12%)' },
+  { id: 6, value: 129, label: 'VFD Panel (15%)' },
+  { id: 7, value: 60, label: 'PLC Panel (7%)' },
 ];
 
 export default function Pie() {
@@ -37,6 +39,26 @@ export default function Pie() {
     : isLarge
     ? 500
     : 600;
+
+    const outerRadius = isXSmall
+    ? 200
+    : isSmall
+    ? 70
+    : isMedium
+    ? 100
+    : isLarge
+    ? 200
+    : 300;
+    const Right = isXSmall
+    ? 200
+    : isSmall
+    ? 260
+    : isMedium
+    ? 200
+    : isLarge
+    ? 200
+    : 300;
+
   return (
     <>
       <div className="w-full h-full">
@@ -51,10 +73,12 @@ export default function Pie() {
                   additionalRadius: -30,
                   color: 'gray',
                 },
+                outerRadius: outerRadius,
               },
             ]}
             height={chartHeight}
             width={chartWidth}
+            margin={{ right: Right , left: 100}}
           />
         </Box>
       </div>

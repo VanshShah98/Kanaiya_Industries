@@ -8,7 +8,8 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { NextPage } from 'next';
 import { EffectCoverflow } from 'swiper/modules';
-import './Slider.css';
+
+
 const Slider: NextPage = () => {
   return (
     <div className=''>
@@ -32,7 +33,6 @@ const Slider: NextPage = () => {
           // when window width is >= 1024px (laptop view)
           1024: {
             effect: 'coverflow',
-            slidesPerView:2,
           },
           // when window width is < 1024px (other views)
           720:{
@@ -49,41 +49,42 @@ const Slider: NextPage = () => {
         }}
       >
         <SwiperSlide className='flex items-center justify-center'>
-          <div className='image-wrapper'>
-          <Image className='w-full h-[500px]' src={'Panel_5.svg'} alt={'Image'} width={96} height={96} />
-          </div>
+          <Image className='w-full h-[400px]' src={'Pre1.svg'} alt={'Image'} width={96} height={96} />
         </SwiperSlide>
         <SwiperSlide className='flex items-center justify-center'>
-          <div className='image-wrapper'>
-          <Image className='w-full h-[500px]' src={'Panel_6.svg'} alt={'Image'} width={96} height={96} />
-          </div>
+          <Image className='w-full h-[400px]' src={'Pre2.svg'} alt={'Image'} width={96} height={96} />
         </SwiperSlide>
         <SwiperSlide className='flex items-center justify-center'>
-          <div className='image-wrapper'>
-          <Image className='w-full h-[500px]' src={'Person_3.svg'} alt={'Image'} width={96} height={96} />
-          </div>
+          <Image className='w-full h-[400px]' src={'Floor1.svg'} alt={'Image'} width={96} height={96} />
         </SwiperSlide>
         <SwiperSlide className='flex items-center justify-center'>
-          <div className='image-wrapper'>
-          <Image className='w-full h-[500px]' src={'Person_1.svg'} alt={'Image'} width={96} height={96} />
-          </div>
+          <Image className='w-auto h-[400px]' src={'C1.svg'} alt={'Image'} width={96} height={96} />
         </SwiperSlide>
         <SwiperSlide className='flex items-center justify-center'>
-          <div className='image-wrapper'>
-          <Image className='w-full h-[500px]' src={'Person_2.svg'} alt={'Image'} width={96} height={96} />
-          </div>
+          <Image className='w-full h-[400px]' src={'C2.svg'} alt={'Image'} width={96} height={96} />
         </SwiperSlide>
         <SwiperSlide className='flex items-center justify-center'>
-          <div className='image-wrapper'>
-          <Image className='w-full h-[500px]' src={'Person_4.svg'} alt={'Image'} width={96} height={96} />
-          </div>
+          <Image className='w-full h-[400px]' src={'C3.svg'} alt={'Image'} width={96} height={96} />
         </SwiperSlide>
         <SwiperSlide className='flex items-center justify-center'>
-          <div className='image-wrapper'>
-          <Image className='w-full h-[500px]' src={'Sipan8pu.svg'} alt={'Image'} width={96} height={96} />
-          </div>
+          <Image className='w-full h-[400px]' src={'C4.svg'} alt={'Image'} width={96} height={96} />
         </SwiperSlide>
-      </Swiper>
+        
+        <SwiperSlide className='flex items-center justify-center'>
+          <Image className='w-full h-[400px]' src={'C7.svg'} alt={'Image'} width={96} height={96} />
+        </SwiperSlide>
+        <SwiperSlide className='flex items-center justify-center'>
+          <Image className='w-full h-[400px]' src={'C8.svg'} alt={'Image'} width={96} height={96} />
+        </SwiperSlide>
+        <SwiperSlide className='flex items-center justify-center'>
+          <Image className='w-full h-[400px]' src={'Sipan8pu.svg'} alt={'Image'} width={96} height={96} />
+        </SwiperSlide>
+      
+        <SwiperSlide className='flex items-center justify-center'>
+          <Image className='w-full h-[400px]' src={'C9.svg'} alt={'Image'} width={96} height={96} />
+        </SwiperSlide>   
+       
+        </Swiper>
     </div>
   );
 };

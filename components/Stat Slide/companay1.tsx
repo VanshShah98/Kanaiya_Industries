@@ -8,7 +8,7 @@ export default function Statistics1() {
           <div className='text-black underline text-3xl lg:text-5xl font-bold pl-8 lg:pl-8 pt-10 lg:pt-20'>
             <p className='pt-2'>Statistics</p>
           </div>
-          <div className='flex flex-col pt-16 lg:pt-64 '>
+          <div className='flex flex-col pt-16 lg:pt-54 '>
             <div className='flex pl-20 lg:pt-24 lg:pl-44'>
               <Pie/>
             </div>
